@@ -38,7 +38,6 @@ public class TataraFurnace extends BlockContainer {
 		setBlockName("tatara_furnace");
 		setBlockTextureName("japanpack:tatara_furnace");
 		this.field_149932_b = false;
-		setHardness(Material.);
 	}
 	public Item getItemDropped(int p_149650_1_, Random p_149650_2_, int p_149650_3_)
 	{
