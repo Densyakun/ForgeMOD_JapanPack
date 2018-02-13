@@ -1,5 +1,4 @@
 package org.densyakun.forge.japanpack;
-import org.densyakun.forge.japanpack.tileentity.TileEntityMoneyChanger;
 import org.densyakun.forge.japanpack.tileentity.TileEntityTataraFurnace;
 
 import cpw.mods.fml.client.FMLClientHandler;
@@ -21,6 +20,5 @@ public class JapanPackClientProxy extends JapanPackCommonProxy {
 	@Override
 	public void registerTileEntity() {
 		GameRegistry.registerTileEntity(TileEntityTataraFurnace.class, "TileEntityTataraFurnace");
-		GameRegistry.registerTileEntity(TileEntityMoneyChanger.class, "TileEntityMoneyChanger");
 	}
 }

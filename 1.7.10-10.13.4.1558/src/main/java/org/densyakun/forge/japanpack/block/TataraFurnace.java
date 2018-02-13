@@ -50,7 +50,7 @@ public class TataraFurnace extends BlockContainer {
 	public void onBlockAdded(World p_149726_1_, int p_149726_2_, int p_149726_3_, int p_149726_4_)
 	{
 		super.onBlockAdded(p_149726_1_, p_149726_2_, p_149726_3_, p_149726_4_);
-		func_149930_e(p_149726_1_, p_149726_2_, p_149726_3_, p_149726_4_);
+		this.func_149930_e(p_149726_1_, p_149726_2_, p_149726_3_, p_149726_4_);
 	}
 
 	private void func_149930_e(World p_149930_1_, int p_149930_2_, int p_149930_3_, int p_149930_4_)
@@ -107,9 +107,9 @@ public class TataraFurnace extends BlockContainer {
 		if (p_149727_1_.isRemote) {
 			return true;
 		} else {
-			TileEntityTataraFurnace tileentity = (TileEntityTataraFurnace) p_149727_1_.getTileEntity(p_149727_2_, p_149727_3_, p_149727_4_);
-			if (tileentity != null) {
-				p_149727_5_.func_146100_a(tileentity);
+			TileEntityTataraFurnace tileentityfurnace = (TileEntityTataraFurnace)p_149727_1_.getTileEntity(p_149727_2_, p_149727_3_, p_149727_4_);
+			if (tileentityfurnace != null) {
+				p_149727_5_.func_146100_a(tileentityfurnace);
 			}
 			return true;
 		}
@@ -187,13 +187,13 @@ public class TataraFurnace extends BlockContainer {
 	{
 		if (!field_149934_M)
 		{
-			TileEntityTataraFurnace tileentity = (TileEntityTataraFurnace)p_149749_1_.getTileEntity(p_149749_2_, p_149749_3_, p_149749_4_);
+			TileEntityTataraFurnace tileentityfurnace = (TileEntityTataraFurnace)p_149749_1_.getTileEntity(p_149749_2_, p_149749_3_, p_149749_4_);
 
-			if (tileentity != null)
+			if (tileentityfurnace != null)
 			{
-				for (int i1 = 0; i1 < tileentity.getSizeInventory(); ++i1)
+				for (int i1 = 0; i1 < tileentityfurnace.getSizeInventory(); ++i1)
 				{
-					ItemStack itemstack = tileentity.getStackInSlot(i1);
+					ItemStack itemstack = tileentityfurnace.getStackInSlot(i1);
 
 					if (itemstack != null)
 					{

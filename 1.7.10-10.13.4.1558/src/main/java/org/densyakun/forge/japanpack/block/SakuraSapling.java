@@ -20,6 +20,7 @@ import net.minecraftforge.event.terraingen.TerrainGen;
 public class SakuraSapling extends BlockBush implements IGrowable {
 	public SakuraSapling() {
 		super(Material.plants);
+		setStepSound(Block.soundTypeGrass);
 		setBlockName("sapling_sakura");
 		setBlockTextureName("japanpack:sapling_sakura");
 	}
