@@ -1,0 +1,14 @@
+{
+	"records.kimigayo": {
+		category: "record",
+		"sounds": [
+			"japanpack/kimigayo"
+		]
+	},
+	"money": {
+		category: "block",
+		"sounds": [
+			"japanpack/money"
+		]
+	}
+}

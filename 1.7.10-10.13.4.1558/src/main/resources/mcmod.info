@@ -1,0 +1,16 @@
+[
+{
+"modid": "japanpack",
+"name": "Japan Pack",
+"description": "JP",
+"version": "0.0.1a",
+"mcversion": "${mcversion}",
+"url": "http://densyakunmod.wiki.fc2.com/",
+"updateUrl": "",
+"authorList": ["Densyakun"],
+"credits": "Made in Japan, Made by Densyakun.",
+"logoFile": "",
+"screenshots": [],
+"dependencies": []
+}
+]
